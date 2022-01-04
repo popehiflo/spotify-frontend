@@ -1,29 +1,43 @@
-# SpotifyFrontend
+#  Spotify : Clon Spotify 🎵
+**Proyecto Web Fullstack**  
+*Spotify es una aplicación que permite reproducir tu musica favorita ...*   
+`H2`, `MySQL`, `JPA`, `Hibernate`, `Spring Boot`, `Spring Data JPA`, `Spring MVC`, `Spring Security`, `JWT`, `HTML`, `CSS`, `TypeScript`, `Angular`.   
+## Repositorios del proyecto 📁
+* ### [spotify-backend](https://github.com/popehiflo/spotify-backend)  
+* ### [spotify-frontend](https://github.com/popehiflo/spotify-frontend) 📌  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+## Frontend construido con 🛠️
+*Despues del [back-end](https://github.com/popehiflo/spotify-backend), también desarrolle el front-end usando Angular 13. Haciendo uso de la arquitectura MVC de Angular, los componentes visuales de Angular Material, formularios reactivos de Angular, navegación, routing. Para por fin poder consumir la API REST*   
 
-## Development server
+* [Angular CLI](https://github.com/angular/angular-cli) - version 13.1.2.
+* [TypeScript](https://www.typescriptlang.org/) - Lenguaje de programación fuertemente tipado que se basa en JavaScript
+* [Angular](https://angular.io/) - Framework desarrollado en TypeScript (SPA)    
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Assets 📝
+* [iconscout](https://iconscout.com/unicons/getting-started/line) by LottieFiles  
+* [Google Fonts](https://fonts.google.com/specimen/Poppins) Poppins  
 
-## Code scaffolding
+## Ejecutando localmente 🚀   
+Se puede ejecutar desde la linea de comandos:  
+```
+... despues de clonar el repositorio
+cd spotify-frontend
+npm install
+ng serve
+``` 
+Luego navegar hacia `http://localhost:4200/`  
+## Descripción
+La UI permite las operaciones CRUD traves de la API REST de las siguientes:
+- [Interface](src/app/): Descripcion de la interface.  
+- [Model](src/app/): Descripcion del Model.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Si encuentra un error o quiere sugerir una mejora 📧
+Siéntase libre de informar algun problema aquí: 
+[https://github.com/popehiflo/spotify-frontend/issues](https://github.com/popehiflo/spotify-frontend/issues)
+## Licencia 📄
+¿Qué es eso? 😆     
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+         
+⌨️ con ❤️ por [popehiflo](https://github.com/popehiflo) 😊
 
 
